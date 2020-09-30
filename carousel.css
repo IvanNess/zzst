@@ -1,3 +1,21 @@
+.carousel{
+  display: flex;
+}
+
+.slick-arrow{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slick-arrow:hover{
+  cursor: pointer;
+}
+
+.slide>img:hover{
+  cursor: pointer;
+}
+
 #carouselBlock{
   position: relative;
 }
