@@ -101,7 +101,7 @@ ul, menu {
 
 #banner {
   padding-top: 2em;
-  background: url("../images/mainPicture.jpg") 50% 50% repeat;
+  background: url("/zzst/images/mainPicture.jpg") 50% 50% repeat;
   overflow: visible;
   text-align: center;
 }
@@ -230,7 +230,7 @@ mark {
 }
 
 .video {
-  background: url("../images/mainPicture.jpg") 50% 50% repeat;
+  background: url("/zzst/images/mainPicture.jpg") 50% 50% repeat;
   text-align: center;
 }
 
@@ -294,7 +294,7 @@ mark {
   width: 400px;
   height: 400px;
   background-repeat: no-repeat;
-  background-image: url("../images/iconSprite.gif");
+  background-image: url("/zzst/images/iconSprite.gif");
   transform: scale(0.25);
   top: -10em;
   left: -10em;
@@ -368,7 +368,7 @@ mark {
   width: 5em;
   display: inline-block;
   text-align: left;
-  float: left;
+  /* float: left; */
 }
 
 .process p {
@@ -410,7 +410,7 @@ mark {
 }
 
 .wrapProcessH1 {
-  background: url("../images/mainPicture.jpg") 50% 0% repeat;
+  background: url("/zzst/images/mainPicture.jpg") 50% 0% repeat;
 }
 
 .process2 {
@@ -523,7 +523,7 @@ a:-webkit-any-link {
 .socIcons {
   margin-top: 1.5em;
   display: inline-block;
-  background-image: url("../images/socIcons1.png");
+  background-image: url("/zzst/images/socIcons1.png");
   background-repeat: no-repeat;
   transform: scale(0.35);
 }
@@ -674,7 +674,7 @@ textarea {
 .message p {
   border-style: solid;
   border-width: 6px 24.5px 13.5px 6.5px;
-  border-image: url(../images/arrowMessage.svg) 12 49 27 13 fill stretch;
+  border-image: url(/zzst/images/arrowMessage.svg) 12 49 27 13 fill stretch;
   color: white;
   font: 1.06em "Open Sans", sans-serif;
   padding-left: 18px;
@@ -929,7 +929,7 @@ footer * {
   #menuButtonLabel {
     display: inline-block;
     vertical-align: 0.85em;
-    float: right;
+    /* float: right; */
     padding: 0.8em 1em 0.8em 1em;
   }
 
