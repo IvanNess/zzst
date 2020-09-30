@@ -1,0 +1,12 @@
+<svg width="92" height="78" xmlns="http://www.w3.org/2000/svg">
+
+ <!--<text x="0" y="115" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by Alena Artemova</text><text x="0" y="120" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text>-->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="80" width="94" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path fill='grey' stroke="null" id="svg_1" d="m78.714586,0.555832l-65.429172,0c-7.15343,0 -12.952082,5.814836 -12.952082,12.988231l0,38.962658c0,7.173395 5.798652,12.988231 12.952082,12.988231l31.587127,0l11.915956,11.949213l11.915956,-11.949213l10.011148,0c7.152415,-0.001018 12.951067,-5.815854 12.951067,-12.989249l0,-38.96164c0,-7.173395 -5.798652,-12.988231 -12.952082,-12.988231z" clip-rule="evenodd" fill-rule="evenodd"/>
+ </g>
+</svg>

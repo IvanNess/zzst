@@ -1,0 +1,32 @@
+#carouselBlock{
+  position: relative;
+}
+.item{
+  text-align: center;
+}
+.glyphicon{
+  color: black;
+}
+.carousel-control{
+  background-image: none;
+  width: 3em;
+}
+.tube{
+  display: inline-block; 
+}
+#close{
+  display: none;
+  opacity:1;
+}
+#close:hover, .screen:hover, .start:hover{
+  cursor: pointer;
+}
+#videoDivWrap{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: grey;
+  width: 100%;
+  opacity:0.8
+}

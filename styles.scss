@@ -1,0 +1,976 @@
+/**{
+    transition-duration: 1.5s;
+}*/
+$mainFont: 'Open Sans', sans-serif;
+$auxFont: 'Open Sans', sans-serif;
+$mainColor: rgba(0,0,0,0.95);
+
+.vcard{
+  display: none;
+}
+#top{
+ position: fixed;
+ background: white;
+ width: 100%;
+ border-bottom: solid 2px green;
+ padding: 0.4em 0 0 0 ;
+ z-index: 2;
+ margin: 0;
+ text-align: center; 
+}
+#rus{
+  background-color: rgba(0,0,0,0.2);
+  padding: 0.2em 0.6em;
+}
+h1{
+font: bold 2.3em $mainFont;
+color: $mainColor;
+}
+#logo{
+width: 12em;
+display: inline-block;
+margin-right: 10em;
+}
+#logoImage{
+width: 12em;
+padding-right: 3em;
+vertical-align: bottom;
+}
+#logoText{
+display: none;
+}
+#logoText2{
+font: bold 1.1em $mainFont;
+color: green;
+display: inline-block;
+margin:0;
+vertical-align:0.4em;
+}
+li a:not(#siteLink), #menuButtonLabel{
+text-decoration: none;
+font: bold 0.9em $mainFont;
+text-transform: uppercase;
+color: $mainColor;
+}
+#menuLogo{
+  width: 3em;
+  display: none;
+}
+li{
+list-style-type: none;
+display: inline-block;
+padding: 0em 3em 0 0;
+vertical-align: 0.5em;
+}
+li a:not(#siteLink):hover{
+  color: green;
+}
+ul, menu{
+margin: 0;
+display: inline-block;
+padding: 0 0 0.2em 0;
+}
+[type=radio], [type=checkbox]{
+display: none;
+}
+#menuButtonLabel{
+display: none;
+cursor: pointer; 
+}
+#menuButtonLabel p{
+padding: 0;
+margin: 0;
+display: inline-block;
+color: $mainColor;
+}
+#menuBlock1, #menuBlock2{
+  display: inline-block;
+}
+#banner{
+padding-top: 2em;
+background: url('../images/mainPicture.jpg') 50% 50% repeat;
+overflow: visible;
+text-align: center;
+}
+#bannerColor{
+background-color: rgba(0, 0, 0, 0.7);
+padding: 10.2em 0 10.2em 0;
+}
+#banner p{
+color: white;
+font: bold 6em $mainFont;
+text-transform: uppercase;
+}
+#banner #bannerText1{
+font-size: 6em;
+margin: 0;
+}
+#banner #bannerText2{
+font-weight: normal;
+font-size: 2.6em;
+margin: 1em 0 1em 0;
+}
+#banner #bannerText3{
+margin:0; 
+font-size: 1em;
+margin-bottom: 1.5em; 
+letter-spacing: -0.1em;
+}
+#banner #bannerText4, #banner #bannerText5{
+font-size: 4.1em;
+margin: 0;
+}
+#whatWeDoDiv, #howWeDoItDiv, #priceDiv, #contactsDiv{
+position: relative;
+}
+div a[name]{
+position: absolute;
+top: -2em;
+left: 0em;
+}
+#description1{
+display: inline-block; 
+width: 10em;
+font: bold 1.2em $mainFont;
+margin:0 2em 0 0em;
+vertical-align: top;
+text-align: left;
+color: $mainColor;
+}
+#description2{
+display: inline-block;
+width: 35em;
+font: 1.1em $auxFont;
+opacity: 0.9;
+/*font: 1.1em Arial;*/
+line-height: 1.3em;
+text-align: justify;
+color: $mainColor;
+}
+mark{
+color: green;
+background-color: transparent;
+padding: 0;
+}
+.description{
+padding: 0 0 0 0;
+text-align: center;
+margin: 3.5em 0 3.5em 0;
+}
+.video h2, .video p{
+padding-left: 7.9em;
+color: white;
+margin-top: 0;
+}
+
+.video section{
+display: inline-block;
+width: 32em;
+text-align: left;
+vertical-align: top;
+margin-bottom: 2em;
+}
+.video section:nth-of-type(even){
+margin-left: 2.5em;
+}
+.video1 h2, .video2 h2, .video3 h2, .video4 h2, .video5 h2{
+margin: 0 0 0.4em 0;
+}
+.video h1{
+text-align: center;
+text-transform: uppercase;
+padding: 2em 0 2em 0;
+color: white;
+}
+.video h2{
+font: bold 1.4em $mainFont;
+text-transform: uppercase;
+padding-left: 5.6em;
+}
+.video p{
+/*font: 1em Arial;*/
+font: 1em $auxFont;
+line-height: 1.3em;
+}
+.video img{
+float: left;
+width: 6.9em;
+}
+.video{
+background: url('../images/mainPicture.jpg') 50% 50% repeat;
+text-align: center;
+}
+section.video6{
+}
+#videoColor{
+background-color: rgba(0, 125, 6, 0.9);
+padding-bottom:2em;
+}
+.services{
+text-align: center;
+margin: 3em 0 0 0;
+}
+.services section{
+display: inline-block;
+width: 24.2em;
+text-align: center;
+vertical-align: top;
+}
+.services section:not(:last-of-type){
+margin: 0 2em 0 0em;
+}
+.services section p{
+font: 1em $mainFont;
+line-height: 1.3em;
+text-align: justify;  
+color: $mainColor;
+}
+.services h1{
+text-transform: uppercase;
+text-align: center;  
+color: #007D06;
+margin-bottom: 1em;
+}
+.services h2{
+font: bold 1.4em $mainFont;
+line-height: 1.3em;  
+text-transform: uppercase;
+text-align: center;
+color: $mainColor;
+}
+.services img{
+width: 7.5em;
+}
+.imageWrapper{
+display:inline-block;
+width: 7.5em;
+height: 7.5em;
+position: relative;
+}
+.serviceImage{
+display: inline-block;
+position: absolute;
+width: 400px; height: 400px; 
+background-repeat: no-repeat; 
+background-image: url('../images/iconSprite.gif');
+transform: scale(0.25);
+top: -10em;
+left: -10em;
+}
+#cartoonIcon{
+background-position: 0px 0px; 
+}
+#videoIcon{
+background-position: -400px 0px; 
+}
+#screencastIcon{
+background-position: -800px 0px; 
+}
+#languageIcon{
+background-position: -1200px 0px; 
+}
+#presentationIcon{
+background-position: -1600px 0px; 
+}
+#promotionIcon{
+background-position: -2000px 0px; 
+}
+#textIcon{
+background-position: -2400px 0px; 
+}
+#translateIcon{
+background-position: -2800px 0px; 
+}
+#photoIcon{
+background-position: -3200px 0px; 
+}
+
+
+
+#portfolioDiv{
+  background: #f2f2f2;
+  padding: 1em 0 6em 0;
+  margin: 3em 0 0 0;
+}
+#portfolio{
+text-transform: uppercase;
+text-align: center;  
+color: #007D06;
+margin: 1em 0 1em 0;
+}
+.process{
+clear: both;
+}
+.process1{
+display: inline-block;
+width: 24em;
+text-align: left;
+margin-right: 6em;
+}
+.process1, .process2{
+margin-bottom: 4em;
+}
+.process img{
+width: 5em;
+display: inline-block;
+text-align: left;
+float: left;
+}
+.process p{
+margin-left: 0em;
+}
+.process1 p{
+/*font: 0.9em Arial;*/
+font: 0.9em $auxFont;
+line-height: 1.3em;  
+color: $mainColor;
+}
+.process1 h2, .process2 h2{
+font: bold 1.2em $mainFont;
+line-height: 1.3em;  
+text-transform: uppercase;
+color: $mainColor;
+}
+#pickout{
+border-bottom: solid rgba(128, 128, 128, 0.3) 2px;
+padding-bottom: 0.6em;
+padding-left: 5em;
+margin-top:0;
+margin-right: 0em;
+font: bold 1.2em $mainFont;
+line-height: 1.3em;  
+text-transform: uppercase;
+color: $mainColor;
+}
+.process h1{
+text-transform: uppercase;
+text-align: center;  
+color: white;
+background-color: rgba(0, 125, 6, 0.9);
+padding: 1em 0 1em 0;
+}
+.wrapProcessH1{
+background: url('../images/mainPicture.jpg') 50% 0% repeat;
+}
+.process2{
+display: inline-block;
+width: 24em;
+vertical-align: top;
+text-align: left;
+}
+.process2 p{
+/*font: 0.9em Arial;*/
+font: 0.9em $auxFont;
+line-height: 1.3em;  
+color: $mainColor;
+}
+.process{
+background-size: 100% 100%;
+border-bottom: solid rgba(128, 128, 128, 0.3) 3px;  
+margin-bottom: 5em;
+}
+.wrap{
+background-color: rgba(255, 255, 255, 0.9);
+padding-bottom: 2em;
+}
+.process section, #pickout{
+text-align: left;
+margin-bottom: 1.5em;
+}
+.process section h2{
+margin-bottom: 0em;
+}
+.process section p{
+margin-top: 0em;
+}
+.processPlusProcess{
+text-align: center;
+margin-top: 4em;
+}
+div a[name=priceAName]{
+top: -5em;
+}
+.priceSection{
+display: inline-block;
+vertical-align: top;
+}
+#priceText{
+display:inline-block;    
+width: 33em;
+}
+#priceText a{
+color: green;
+}
+.price p{
+/*font: 1.04em Arial;*/
+font: 1.04em $auxFont;
+line-height: 1.3em;
+text-align: left;  
+color: $mainColor;
+}
+.price h2{
+font: bold 1.2em $mainFont;
+color: $mainColor;
+margin: 0;
+text-align:left;
+}
+.priceTop h1{
+text-transform: uppercase;
+text-align: center;  
+color: #007D06;
+margin-bottom: 0em; 
+}
+.priceTop{
+margin: 5em 0 3.5em 0;
+}
+.price img{
+width: 12em;
+display: inline-block;
+margin-right: 2em;
+vertical-align: top;
+}
+.price{
+margin-bottom: 5em;
+text-align: center;
+}
+.aSocIcons:hover{
+text-decoration: none;
+}
+a:-webkit-any-link{
+text-decoration: none;
+}
+.socIcons{
+margin-top:1.5em;
+display: inline-block;
+background-image: url('../images/socIcons1.png');
+background-repeat: no-repeat; 
+transform: scale(0.35);
+}
+#socIcons{
+word-spacing: -1em;
+}
+#ytIcon{
+background-position: -38px -39px; 
+width: 100px; height: 100px; 
+}
+#vkIcon{
+background-position: -278px -39px; 
+width: 120px; height: 100px; 
+}
+#fbIcon{
+background-position: -555px -33px; 
+width: 75px; height: 117px; 
+vertical-align: -0.5em;
+}
+#instaIcon{
+background-position: -791px -39px; 
+width: 100px; height: 100px; 
+}
+
+#downloadIcon{
+width: 1.3em;
+vertical-align: -0.1em;
+}
+div a[name=ContactsAName]{
+top: 1em;
+}
+.contacts{
+text-align: center;
+margin-bottom: 6em;
+}
+.contacts h1{
+text-transform: uppercase;
+text-align: center; 
+border-top: solid rgba(128, 128, 128, 0.3) 3px;  
+margin: 0;
+padding: 2em 0 1em 0; 
+}
+.contactText, .formDiv{
+display: inline-block;
+width: 24em;
+vertical-align: top;
+}
+.formDiv{
+  position: relative;
+  display: inline-block;
+}
+.contactText{
+/*font: 1.1em Arial;*/
+font: 1.1em $auxFont;
+line-height: 1.3em;
+text-align: center;  
+margin-right: 4em;
+color: $mainColor;
+}
+input, textarea{
+float: left;
+width: 100%;
+margin: 0.8em 0 0.8em 0;
+padding-left: 1em;
+font: italic 0.8em $mainFont;
+color: $mainColor;
+}
+input{
+height: 3.45em;
+}
+.inputDiv{
+  position: relative;
+}
+.message{
+  position: absolute;
+  top: -1.9em;
+  right: -1em;
+}
+#emailResult{
+  top: 2.1em;
+}
+textarea{
+padding-top: 1em;
+margin-bottom:1.8em;
+}
+.phone{
+font: bold 1.55em $mainFont;
+margin: 1em 0 1em 0;
+color: $mainColor;
+}
+#email{
+font: bold 1.55em $mainFont;
+margin: 1.5em 0 0.2em 0;
+color: $mainColor;
+
+}
+[type=submit]{
+display: none;
+}
+#button{
+text-transform: uppercase;
+position: absolute;
+left:0;
+top:21.6em;
+background-color: rgba(0, 125, 6, 0.9);
+padding: 1.1em 3em 1.1em 3em;
+font: 0.9em $mainFont;
+color: white;
+border-radius: 2em;
+transition: transform 0.9s;
+text-align: left;
+}
+#button:hover{
+cursor: pointer;
+color: rgba(0, 0, 0, 0.9);
+}
+#button:active{
+  /* font: 0.88em Arial; */
+  transform: scale(0.95);
+}
+.message p{
+  border-style: solid;
+  border-width: 6px 24.5px 13.5px 6.5px;
+  border-image: url(../images/arrowMessage.svg) 12 49 27 13 fill stretch;
+  color: white;
+  font: 1.06em $mainFont;
+  padding-left: 18px;
+  margin: 0;
+}
+#result{
+  position: absolute;
+  bottom: -1.4em;
+  right: 0em;
+  font: 0.9em $mainFont;
+  width: 15em;
+  color: navy;
+  background-color: skyblue;
+}
+#textAreaResult{
+  position: absolute;
+  top: 10.2em;
+}
+text{
+ font: 0.15em $mainFont;
+ color: $mainColor;
+}
+footer{
+ font: 0.6em $mainFont;
+ background-color: $mainColor;
+ color: grey;
+ position: relative;
+ text-align: center;
+}
+footer *{
+ display: inline-block;
+}
+#footLogo{
+ width: 5em;
+ margin: 2em auto 2em auto;
+}
+#adress{
+ vertical-align: 3em;
+ text-align: left;
+ position: absolute;
+ top: 2em;
+ left: 10%;
+}
+#copyright{
+ font: 1.38em $mainFont;
+ vertical-align: 3em;
+ position: absolute;
+ top: 2em;
+ right: 10%;
+}
+@media only all and (min-width: 90em){
+  .serviceBlock{
+    display: block;
+  }
+}
+
+@media only all and (max-width: 70em){
+  #logo{
+     margin-right: 0;
+  }
+  #bannerColor{
+    padding: 5em 0 5em 0;
+  }
+  .video section{
+    width: 46em;
+    margin-left: 0em;
+  }
+  .video section:nth-of-type(even){
+    margin-left: 0em;
+  }
+  .video section p{
+  }
+ /*.service3, .service4{
+    margin-right: 2em;
+  }*/
+    .services section:not(:last-of-type){
+    margin-right: auto;
+  }
+  .serviceBlock:nth-child(even) section:nth-child(odd){
+    margin-right: 3em;
+  }
+  .serviceBlock:nth-child(odd) section:nth-child(even){
+    margin-right: 3em;
+  }
+}
+@media only all and (max-width: 60em){
+  li{
+    font: bold 0.9em $mainFont;
+    padding-right: 3em;
+  }
+  .process1{
+  margin-right: 0em;
+  }
+  .contactText{
+    margin: 0;
+  }
+}
+@media only all and (max-width: 55em){
+  menu{
+    vertical-align: 0.15em;
+  }
+  li{
+    font: bold 0.8em $mainFont;
+    padding-right: 2em;
+  }
+  .description{
+    width: 36em;
+    margin: 3.5em auto 3.5em auto;
+  }
+  #description1{
+    float: left;
+    margin: 0 1em 1em 0;
+  }
+  #description2{
+    padding-left: 0;
+    display: block;
+  }
+  .video section{
+     width: 33em;
+  }
+  .serviceBlock:nth-child(even) section:nth-child(odd){
+    margin-right: auto;
+  }
+  .serviceBlock:nth-child(odd) section:nth-child(even){
+    margin-right: auto;
+  }
+  .services section{
+    width: 35.6em;
+    padding: 0;
+    margin-right: 0;
+  }
+  .services h2{
+    padding-left: 6.4em;
+    text-align: left;
+  }
+  .services p{
+    padding-left: 9em;
+  }
+  .services img{
+    float: left;
+    position: relative;
+  }
+  .imageWrapper{
+    float: left;
+  }
+  #cartoonIcon{
+  }
+  #videoIcon{
+  }
+  #screencastIcon{
+  }
+  #languageIcon{
+  }
+  #presentationIcon{
+  }
+  #promotionIcon{
+  }
+  #textIcon{
+  }
+  #translateIcon{
+  }
+  #photoIcon{
+  }
+  .process1, .process2{
+  margin-left: 0em; 
+  }
+  footer{
+   text-align: center;
+  }
+  #footLogo{
+    float: left;
+    margin-left: 0em;
+  }
+  #adress{
+    position: static;
+    display: block;
+    margin: 2em 0 1em 8em;
+  }
+  #copyright{
+    display: block; 
+    position: static;
+    margin: 0.5em 0 0 6.7em;
+  }
+}
+@media only all and (max-width: 50em){
+  .serviceBlock:nth-child(even) section:nth-child(odd){
+    margin-right: auto;
+  }
+  .serviceBlock:nth-child(odd) section:nth-child(even){
+    margin-right: auto;
+  }
+}
+@media only all and (max-width: 44em){
+  #banner #bannerText4, #banner #bannerText5{
+    font-size: 2.8em;
+  }   
+  .video section{
+     margin: 0 0 2em 0em;
+     width: 33em;
+  }
+ .priceSection:not(:last-of-type){
+    margin-right: 0em;
+ }
+}
+@media only all and (max-width: 40em){
+  #top{
+    padding-top: 0.2em;
+    text-align: justify
+  }
+  #logo{
+    right: 1em;
+    width: auto;
+  }
+  #logoImage{
+    padding-right: 1.5em;
+  }
+  menu{
+    padding: 0.2em 0em;
+    display: none;
+    right: 0;
+    text-align: center;
+    border: solid 2px green;
+    background-color: white;
+  }
+  li{
+    display: list-item;
+    padding-left: 0em;
+    font-size: 1.5em;
+    padding-right: 0em;
+  }
+  #menuButtonLabel{
+    display: inline-block;
+    vertical-align: 0.85em;
+    float: right;
+    padding: 0.8em 1em 0.8em 1em;
+  }
+  #menuSelect0:checked+label p{
+  }
+  #menuSelect0+label p{
+    color: $mainColor;
+  }
+  #menuSelect0:checked ~ menu{
+    display: block;
+  }
+  #menuSelect0 ~ menu{
+    display: none;
+  }
+  .description{
+    width: auto;
+  }
+  #description1{
+    margin: 0.5em;
+    width: 9.5em;
+  }
+  #description2{
+    padding: 0 0.5em 0 0.5em;
+    width: auto;
+  }
+  .priceSection{
+    margin:  0 1em 0 1em;
+  }
+  .priceSection img:not(#downloadIcon){
+    float: left;
+  }
+  #priceText{
+    display: block;
+    width: auto;
+  }
+} 
+@media only all and (max-width: 35em){
+  #logo{
+    right: 1em;
+    width: auto;
+  }
+  #logoImage{
+    padding-right: 1.5em;
+  }
+  #logoText{
+      font: bold 1.3em $mainFont;
+      vertical-align: 0.47em; 
+  }
+  #banner #bannerText4, #banner #bannerText5{
+    font-size: 2.4em;
+  }   
+  .video section{
+    width: auto;
+  }
+  .video p{
+    padding: 0 0.5em 0 0.5em;
+  }
+  .video h2{
+    padding-left: 5em;
+  }
+  .video img{
+    padding: 0 0.5em 0 0.4em;
+  }
+  .services section{
+    width: auto;
+    padding-right: 0.5em;
+  }
+  .services h2, .services p{
+    padding-left: 0.5em;
+  }
+  .services img{
+    padding-right: 0.2em;
+  }
+  .serviceImage{
+    transform: scale(0.2);
+    top: -10.5em;
+    left: -10.5em;
+  }
+  .process1, .process2{
+    width: auto;
+    padding: 0 0.5em 0 0.5em;
+  }
+  .contactText{
+    width: auto;
+  }
+}
+@media only all and (max-width: 31em){
+  #top{
+     padding-top: 0.2em;
+     text-align: justify;
+  }
+  #logo{
+    position: static;
+    padding-left: 1em;
+  }
+  #banner #bannerText4, #banner #bannerText5{
+    font-size: 2em;
+  }
+  .contactText{
+    font-size: 1em;
+  }
+  #socIcons{
+    word-spacing: -2em;
+  }
+  .socIcons{
+    transform: scale(0.35);
+  }
+}
+@media only all and (max-width: 28em){
+  #logoText{
+    display: none;
+  }
+  .formDiv{
+    max-width: 16em;
+  }
+  #result{
+      bottom: -3em;
+      right: auto;
+      left: 0em;
+  }
+}
+@media only all and (max-width: 25em){
+  #banner{
+    padding-top: 2em;
+  }
+  #banner #bannerText2{
+    font-size: 1.1em;
+  }
+  #banner #bannerText4, #banner #bannerText5{
+    font-size: 1.6em;
+  }
+  .contactText{
+    font-size: 0.8em;
+  }
+  #socIcons{
+    word-spacing: -3em;
+  }
+  #ytIcon{
+    margin-right: -1em;
+  }
+  footer{
+   text-align: left;
+  }
+  #footLogo{
+    float: left;
+    margin-left: 2em;
+  }
+}
+@media only all and (max-width: 21em){
+  #banner #bannerText1{
+    font-size: 3em;
+    margin: 0;
+  }
+  .services h2{
+     font: bold 1em $mainFont;
+     padding-left: 7.6em;
+  }
+  #socIcons{
+    word-spacing: -4em;
+  }
+  #ytIcon{
+    margin-right: -2em;
+  }
+}
+@media only all and (max-width: 19em){
+  #banner #bannerText4, #banner #bannerText5{
+    font-size: 1.2em;
+  }
+  .contactText{
+    font-size: 0.7em;
+  }
+}
+
+
